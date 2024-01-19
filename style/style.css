@@ -338,6 +338,7 @@ body{
 
 .products__wrap-cards-card{
     border: 1px solid #fff;
+    max-width: 330px;
 }
 
 .products__wrap-cards-desc{
@@ -530,7 +531,7 @@ body{
 
 .footer{
     background: #322E41;
-    height: 124px;
+    height: 100%;
 }
 
 .footer__nav{
@@ -564,4 +565,9 @@ body{
 
 .footer-nav-lisy-item:hover{
     border-bottom:  #fff solid 2px ;
+}
+
+.products__wrap-desc-btns{
+    display: flex;
+    gap: 24px;
 }
